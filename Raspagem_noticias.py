@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[28]:
-
-
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #biblioteca para web scraping
 from urllib.parse import urljoin
 
 urls = ['https://noticias.iob.com.br',
@@ -41,16 +35,3 @@ for url in urls:
             print('\n')  # Print a newline to separate headlines from different sites
 
     input("Pressione qualquer tecla para continuar...")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
